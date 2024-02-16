@@ -31,3 +31,8 @@ weight = 3
 
 ### How to add css and js
 inside static folder, place css file(s) and js file(s) on their respective sub-folder
+
+### How to add this theme to your Hugo Project
+`git submodule add https://github.com/qnods/hugo-plain-theme.git themes/qnods-hugo-plain`
+
+`echo "theme = 'qnods-hugo-plain'" >> hugo.toml`
